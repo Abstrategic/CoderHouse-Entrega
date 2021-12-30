@@ -1,0 +1,115 @@
+@mixin peso-text ($p, $cf) {
+    font-weight: $p;
+    color: $cf;
+}
+// Variables
+
+$w1: 800px;
+$w2: 600px;
+$sf: normal;
+
+// Variables of colours
+$c-bg: #19171A;
+$c-f: #FFFFFF;
+$c-f2: #CFD6E3;
+$c-c1: #688CE8;
+$c-c2: #577DDD;
+$c-c3: #4A6EC7;
+$c-d: #8DA3C8;
+
+// Variables Fonts
+
+$ff1: Montserrat;
+$ff: 'Noto Sans Mono';
+$fw: 600;
+
+
+// @for $i from 1 through 6 {
+//     h#{$i} {
+//         font-size: 2em /$i;
+//     }
+// }
+
+
+h1{
+    font-family: Noto Sans Mono;
+    font-style: $sf;
+    font-weight: $w2;
+    font-size: 40px;
+    line-height: 105%;
+    color: $c-f;
+
+}
+
+h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: $c-f2;
+}
+h3{
+    font-family: Montserrat;
+    font-style: $sf;
+    font-weight: $w1;
+    font-size: 18px;
+    line-height: 100%;
+    color: $c-f;
+    /* identical to box height, or 20px */
+
+}
+h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 100%;
+    /* identical to box height, or 22px */
+
+    color: #FFFFFF;
+}
+h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    letter-spacing: 0.3em;
+
+    color: #CFD6E3;
+}
+a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    /* or 29px */
+
+
+    color: #FFFFFF;
+
+}
+.nav-link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
+
+

@@ -1,0 +1,130 @@
+
+header{
+    background-color: #212529;
+}
+footer{
+    background-color: #212529;
+}
+#contenedor{
+
+    height: max-content;
+}
+body{
+    background-color: #19171A;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-content{
+        height: 400px;
+        background-image: url("../public/img/office.png");
+        background-repeat: no-repeat;
+        background-position:75% 85%;
+        
+
+        h1{
+            width: 450px;
+            position: relative;
+            top: 40px;
+
+        }
+        h2{
+            width: 450px;
+            position: relative;
+            top: 40px;
+        }
+        button{
+            position: relative;
+            top: 40px;
+        }
+
+    
+    }
+
+    #section-parragraph{
+        display: flex;
+        flex-direction: row;
+    
+        p{
+            width: 330px;
+            margin-right: 24px;
+            margin-top: 16px;
+        }
+    }
+    .section-description{
+        p{
+            margin-top: 16px;
+        }
+    
+    }
+    .services-title{
+        h2{
+            width: 700px;
+        }
+        .section-description{
+            width: 700px;
+        }
+    
+    }
+    .secundary-section{
+        .service-content{
+            .card-1{
+                width: 230px;
+
+                .container-card{
+                    width: 230px;
+                }
+            }
+            .card-2{
+                width: 230px;
+
+                .container-card{
+                    width: 230px;
+                }
+            }
+            .card-3{
+                width: 230px;
+                .container-card{
+                    width: 230px;
+                }
+            }
+        }
+        .carrusel-works{
+            .carousel {
+                // padding: 30px;
+                overflow-x: hidden;
+            }
+            
+            .carousel__container {
+                // padding-bottom: 10px;
+                width: 100%;
+                white-space: nowrap;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .carousel--item {
+                
+                width: 210px;
+                height: 250px;
+            }
+            .carousel--item__img {
+                width: 210px;
+                height: 250px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .services-title{
+        margin-left: 14vw;
+    }
+    .secundary-section{
+        margin-left: 14vw;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .section-1{
+        margin-left: 14vw;
+    }
+}

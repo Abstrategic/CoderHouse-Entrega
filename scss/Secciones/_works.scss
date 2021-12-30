@@ -1,0 +1,94 @@
+.secundary-section{
+    margin-top: 24px;
+    .carrusel-works{
+        .carousel {
+            // padding: 30px;
+            overflow-x: hidden;
+        }
+        
+        .carousel__container {
+            // padding-bottom: 10px;
+            width: 100%;
+            white-space: nowrap;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .carousel--item {
+            display: inline-block;
+            // margin: 10px 8px;
+            margin-top: 10px;
+            margin-right: 16px;
+            margin-bottom: 16px;
+            width: 250px;
+            height: 250px;
+            border-radius: 8px;
+            background-color: lightblue;
+            overflow: hidden;
+            cursor: pointer;
+            transition: 350ms all;
+            transform-origin: center left;
+        }
+        
+        .carousel--item:hover ~ .carousel--item {
+            transform: translate3d(60px, 0, 0);
+        }
+        .carousel__container:hover .carousel--item {
+            opacity: 0.3;
+        }
+        
+        .carousel__container:hover .carousel--item:hover {
+            transform: scale(1.2, 1.2);
+            opacity: 1;
+        }
+        
+        .carousel--item:hover .carousel--item__details {
+            opacity: 1;
+        }
+        
+        .carousel--item__img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .carousel--item__details {
+            padding: 10px;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            font-size: 10px;
+            background: linear-gradient(83deg, #19171A 0%, rgba(255, 87, 34, 0.1) 100%);
+            opacity: 0;
+            transition: 350ms opacity;
+        }
+        .carousel--item__details img {
+            margin: 0 5px;
+            width: 20px;
+        }
+
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        .carousel--item__details--subtitle{
+            // position: absolute;
+            bottom: 0px;
+            margin: 16px;
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+        }
+    }
+}

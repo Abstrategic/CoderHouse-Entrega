@@ -1,0 +1,61 @@
+.main-content{
+    height: 400px;
+    background-image: url("../public/img/office.png");
+    background-repeat: no-repeat;
+    background-position:left center;
+
+}
+.sub-section { 
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    .card1{
+        width: 295px;
+        height: 170px;
+        padding: 62px;
+        background-color: #577DDD;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        .title-card{
+            width: 225px;
+        }
+        .main-cta{
+            width: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .icon-card{
+                margin-left: 16px;
+            }
+        }
+    }
+    .card2{
+        width: 295px;
+        height: 170px;
+        padding: 62px;
+        background-color: #688CE8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        .title-card{
+            width: 225px;
+        }
+        .main-cta{
+            width: 250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .icon-card{
+                margin-left: 16px;
+            }
+        }
+    }
+    .sub-icon{
+       display: none;
+    }  
+}

@@ -1,0 +1,60 @@
+.secundary-section{
+    .service-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        // margin: auto;
+
+        .card-1{
+
+            .container-card{
+                background: $c-f2;
+                margin: auto;
+                padding: 40px;
+                width: 295px;
+                height: max-content;
+                background: $c-c1;
+                border-radius: 0px;
+            }
+            .number-card{
+                height: max-content;
+                width: max-content;
+                position: relative;
+                top:20px;
+            }   
+        }
+        .card-2{
+            .container-card{
+                background: $c-c2;
+                padding: 40px;
+                width: 295px;
+                height: max-content;
+                background: $c-c2;
+                border-radius: 0px;
+            }
+            .number-card{
+                height: max-content;
+                width: max-content;
+                position: relative;
+                top:20px;
+            }
+        }
+        .card-3{
+            .container-card{
+                background: $c-c3;
+                padding: 40px;
+                width: 295px;
+                height: max-content;
+                background: $c-c3;
+                border-radius: 0px;
+            }
+            .number-card{
+                height: max-content;
+                width: max-content;
+                position: relative;
+                top:20px;
+            }
+        }
+    }
+}
